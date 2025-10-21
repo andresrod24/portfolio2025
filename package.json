@@ -1,0 +1,18 @@
+{
+  "name": "andres-rodriguez-portfolio",
+  "version": "1.0.0",
+  "description": "UX/UI Designer Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  },
+  "keywords": ["portfolio", "ux", "ui", "design", "tailwind"],
+  "author": "Andrés Rodríguez G.",
+  "license": "MIT"
+}
